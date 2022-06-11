@@ -1,0 +1,24 @@
+{
+  "name": "student-reader",
+  "version": "1.0.0",
+  "description": "To be used together with student-updater and accessed from student-service (proxy/cache server)",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadhaydar/student-updater.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmadhaydar/student-updater/issues"
+  },
+  "homepage": "https://github.com/ahmadhaydar/student-updater#readme"
+}
